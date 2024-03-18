@@ -1,4 +1,5 @@
 # Event schema registry
+Forked from "https://github.com/davydovanton/event_schema_registry.git"
 
 This repository is an example of how to make event schema registry for JSON schema events using only github. The general idea - how to share schemas across different services plus how to validate data for specific events.
 
@@ -7,7 +8,7 @@ This repository is an example of how to make event schema registry for JSON sche
 Add this line into your Gemfile:
 
 ```
-gem "schema_registry", git: "https://github.com/davydovanton/event_schema_registry.git"
+gem "schema_registry", git: "https://github.com/<GIT_USERNAME>/event_schema_registry.git"
 ```
 
 ## How to add a new event schema
